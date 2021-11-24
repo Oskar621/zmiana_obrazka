@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.oooo)
         }
         findViewById<Button>(R.id.button_image3).setOnClickListener {
-            findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.vislaud)
+            findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.vislaud);
         }
         findViewById<Button>(R.id.button_image4).setOnClickListener {
             findViewById<ImageView>(R.id.imageView).setImageResource(R.drawable.pogchamp)
